@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" type="module"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <button type="button" id="left-chevron">
+        <img src="./images/chevron-left.svg" alt="Left chevron" />
+      </button>
+      <div class="frame">
+        <div class="container">
+          <div><img src="./images/deer.jpg" alt="Deer" /></div>
+          <div><img src="./images/iguana.jpg" alt="Iguana" /></div>
+          <div><img src="./images/zebra.jpg" alt="Zebra" /></div>
+          <div><img src="./images/kangaroo.jpg" alt="Kangaroo" /></div>
+          <div><img src="./images/pig.jpg" alt="Pig" /></div>
+        </div>
+      </div>
+      <button type="button" id="right-chevron">
+        <img src="./images/chevron-right.svg" alt="Right chevron" />
+      </button>
+    </div>
+    <div class="navigation">
+      <button type="button" data-index="0" id="active"></button>
+      <button type="button" data-index="1"></button>
+      <button type="button" data-index="2"></button>
+      <button type="button" data-index="3"></button>
+      <button type="button" data-index="4"></button>
+    </div>
+  </body>
+</html>
