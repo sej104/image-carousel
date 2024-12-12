@@ -1,3 +1,3 @@
 # image-carousel
 
-Basic image carousel created using HTML, CSS, and Javascript
+[Live Preview](https://sej104.github.io/image-carousel/)
